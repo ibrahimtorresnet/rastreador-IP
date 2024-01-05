@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+.contenidoDeInformacion{margin: 0;
+    padding: 3% 0;
+    width: 100%;
+    height: 14.5vh;
+  
+    text-align: center;
+    background: url("../images/pattern-bg-desktop.png") ;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+color: #fff;
+position: relative;
+
+
+
+}
+
+input{
+    width: 35%;
+    height: 45%;
+    border-radius: 20px;
+    border: 1px solid #000;
+    outline: none;
+    padding-left: 20px;
+
+}
+
+button{width: 45px;
+    height: 45px;
+   border-radius: 50%;
+   border: 1px solid #000;
+   outline: none;
+   color: #ffffff;
+   cursor: pointer;
+
+  
+background-color: #000;
+  
+   
+}
+
+.informacion{width: 50%;
+height: 18vh;
+background-color:#fff ;
+box-shadow: 2px 2px 2px #000;
+border-radius:20px;
+margin:1% 25%;
+color: #000;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+z-index: 1000;
+
+
+}
+
+.informacion div{
+    margin:0  2% 0 2% ;
+   
+    height: 70%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    border-right: 1px solid  #746d6d;
+    
+
+ 
+}
+
+.element{
+
+  
+   
+    height: 70%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+   
+   
+ }
+
+ p{font-size: 19px;
+
+font-family: Arial, Helvetica, sans-serif;}
+ h4{font-size: 12px;
+    font-weight: bold;
+color: #746d6d;}
+
+    #map{
+        width: 100%;
+        height: 72.5vh;
+      
+    }
+    
+
+    button:hover{background-color: rgb(109, 11, 93);
+    box-shadow: 2px 2px 2px blue;}
