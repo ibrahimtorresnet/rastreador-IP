@@ -69,13 +69,13 @@ try{
     
      let data= await solicitud.json()
      console.log(data)
-     setTimeout(() => {
+    
         Pip.innerHTML=(data.ip)
         Location.innerHTML=(`${data.location.country} ${data.location.region}`)
         timeZone.innerHTML=(`UTC ${data.location.timezone}`)
         ISP.innerHTML=(data.isp)
        latAndlon(data.location.lat,data.location.lng)
-     }, 1000);
+    
      
 
  
